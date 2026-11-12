@@ -1,0 +1,102 @@
+.contact-page {
+    background-color: #fbf9fa;
+    min-height: 100vh;
+}
+
+.contact-hero {
+    background: linear-gradient(180deg, #fff2f6 0%, #fbf9fa 100%);
+    border-bottom: 1px solid #f0dde3;
+}
+
+.touch, .contactt {
+    color: #910c36;
+}
+
+/* Contact Info Cards */
+.contact-info-card {
+    background: #ffffff;
+    border: 1px solid #fae1e8;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-info-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(145, 12, 54, 0.08) !important;
+}
+
+.info-icon-wrapper {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: #fdebee;
+    color: #910c36;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.contact-val {
+    color: #333333;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.contact-val:hover {
+    color: #910c36;
+    text-decoration: underline;
+}
+
+.badge-primary-custom {
+    background-color: #910c36;
+    color: #ffffff;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.badge-alt-custom {
+    background-color: #555555;
+    color: #ffffff;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+/* Form card */
+.contact-form-card {
+    border: 1px solid #fae1e8;
+}
+
+.btncontact {
+    background-color: #910c36;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btncontact:hover {
+    background-color: #72092a;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.map-container iframe {
+    border-radius: 1rem;
+    min-height: 480px;
+}
+
+@media screen and (max-width: 768px) {
+    .map-container iframe {
+        min-height: 350px;
+    }
+}
