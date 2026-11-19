@@ -2,7 +2,7 @@ import './About.css';
 import Navbar from "./../../component/Navbar/Navbar";
 import Footer from "./../../component/Footer/Footer";
 import Button from './../../component/Button/Button';
-import Restaurant from "./images/restaurant.png";
+import Restaurant from "./images/restaurant.webp";
 
 export default function About() {
     return (
